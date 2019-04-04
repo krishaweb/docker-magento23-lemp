@@ -1,11 +1,14 @@
 # Magento2.3 (Nginx + PHP7.2fpm + Mysql + Phpmyadmin +Redis + RabbitMQ)
 
-#### Docker is a tool that is use to create virtual container and run the application over that in OS Level.
+Docker is a tool that is used to create virtual container and run the application over OS Level
 
-#### Docker compose is a tools with that multiple docker containers can be run at a time.
-#### In this repository we create multiple containers that are required to run Magento 2.3 like Nginx + PHP7.2fpm + Mysql
+Docker compose is a tool with that multiple docker containers can be run at a time.
 
-#### To use this you just need to install "docker" and "docker compose".
+With this repository multiple containers can be created that are required to run Magento 2.3 like Nginx + PHP7.2fpm + Mysql
+
+You will just need to run below step and you environment for magento2.3 will be ready.
+
+To use this you just need to install "docker" and "docker compose".
 
 # Steps to Deploy.
 
