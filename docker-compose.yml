@@ -1,8 +1,7 @@
 version: '3'
 services:
   web:
-    build:
-      context: ./nginx
+    image: sanketkulkarni/magento23-nginx
     ports:
       - "3000:80"
     external_links:
@@ -15,8 +14,7 @@ services:
     volumes:
       - ./public:/var/www
   phpfpm:
-    build:
-      context: ./phpfpm
+    image: sanketkulkarni/magento23-phpfpm
     ports:
       - "9000:9000"
     restart: always
