@@ -1,6 +1,21 @@
-# Magento2.3 (PHP7.2fpm + Mysql +Phpmyadmin +Redis + RabbitMQ)
+# Magento2.3 (Nginx + PHP7.2fpm + Mysql + Phpmyadmin +Redis + RabbitMQ)
 
-##
+#### Docker is a tool that is use to create virtual container and run the application over that in OS Level.
+
+#### Docker compose is a tools with that multiple docker containers can be run at a time.
+#### In this repository we create multiple containers that are required to run Magento 2.3 like Nginx + PHP7.2fpm + Mysql
+
+#### To use this you just need to install "docker" and "docker compose".
+
+# Steps to Deploy.
+
+##Clone this repositary
+
+```
+git clone git@github.com:KrishaWeb/docker-magento23-lemp.git
+```
+## Go to the directory that you have extracted.
+
 
 ## Downloading Magento2.3
 ```
