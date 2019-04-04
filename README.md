@@ -9,7 +9,7 @@
 
 # Steps to Deploy.
 
-##Clone this repositary
+## Clone this repositary
 
 ```
 git clone git@github.com:KrishaWeb/docker-magento23-lemp.git
