@@ -80,7 +80,7 @@ Web : http://localhost:3000/
 
 PhpMyAdmin : http://localhost:8186/
 
-##Mysql Data
+## Mysql Data
 User  : root
 Password : root
 Host : mysql
