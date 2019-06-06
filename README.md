@@ -19,16 +19,25 @@ git clone git@github.com:KrishaWeb/docker-magento23-lemp.git
 ```
 ## Go to the directory that you have extracted.
 
+## Starting all docker containers, It will install whole LEMP stack
+```
+docker-compose up -d
+```
+
+## Open new tab of terminal, and run below
+```
+docker exec -it magento23docker_phpfpm bash
+```
 
 ## Downloading Magento2.3
 ```
-composer create-project --repository-url=https://repo.magento.com/ magento/project-community-edition public
+composer create-project --repository-url=https://repo.magento.com/ magento/project-community-edition .
 ```
 
 ## Do you want sample data?
 Execute (from the host machine):
 ```
-cd public
+
 php bin/magento sampledata:deploy
 composer update
 ```
